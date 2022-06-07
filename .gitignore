@@ -1,4 +1,10 @@
 *
 */
 
+
+!**/TaleWorlds.*.dll
+!**/SandBox*dll
+!**/StoryMode*dll
+!**/Steamworks.NET.dll
+
 !.gitignore
