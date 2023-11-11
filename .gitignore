@@ -1,3 +1,8 @@
+/bin/Win64_Shipping_Client/BattlEye
+/bin/Win64_Shipping_Client/Microsoft.AspNetCore.All
+/bin/Win64_Shipping_Client/Microsoft.AspNetCore.App
+/bin/Win64_Shipping_Client/Microsoft.NETCore.App
+/bin/Win64_Shipping_Client/mono
 /Data
 /DigitalCompanion
 /GUI
