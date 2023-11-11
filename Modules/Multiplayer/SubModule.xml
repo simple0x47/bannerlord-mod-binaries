@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Multiplayer"/>
+	<Id value = "Multiplayer"/>
+	<Version value = "e1.8.1"/>
+	<DefaultModule value="true"/>
+	<ModuleCategory value="Multiplayer"/>
+  <Official value="true" />
+  <DependedModules>
+		<DependedModule Id="Native" DependentVersion="e1.8.1" Optional="false"/>
+	</DependedModules>
+  <SubModules>
+  </SubModules>
+</Module>

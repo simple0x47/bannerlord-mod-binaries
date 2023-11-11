@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="Dedicated Custom Server Helper" />
+	<Id value="DedicatedCustomServerHelper" />
+	<Version value="e1.8.1" />
+	<DefaultModule value="false" />
+	<ModuleCategory value="Multiplayer" />
+    <Official value="false" />
+    <DependedModules>
+		<DependedModule Id="Native" DependentVersion="e1.8.1" Optional="false" />
+	</DependedModules>
+    <SubModules>
+		<SubModule>
+		    <Name value="DedicatedCustomServerWebPanelSubModule" />
+		    <DLLName value="TaleWorlds.MountAndBlade.DedicatedCustomServer.WebPanel.dll" />
+		    <SubModuleClassType value="TaleWorlds.MountAndBlade.DedicatedCustomServer.WebPanel.DedicatedCustomServerWebPanelSubModule" />
+		    <Tags>
+				<Tag key="DedicatedServerType" value="custom" />
+				<Tag key="RejectedPlatform" value="Orbis" />
+				<Tag key="RejectedPlatform" value="Durango" />
+				<Tag key="RejectedPlatform" value="GDKDesktop" />
+		    </Tags>
+		</SubModule>
+		<SubModule>
+			<Name value="DedicatedCustomServerMapServerSubModule"/>
+			<DLLName value="TaleWorlds.MountAndBlade.DedicatedCustomServer.MapServer.dll"/>
+			<SubModuleClassType value="TaleWorlds.MountAndBlade.DedicatedCustomServer.MapServer.DedicatedCustomServerMapServerSubModule"/>
+			<Tags>
+				<Tag key="DedicatedServerType" value="custom" />
+				<Tag key="RejectedPlatform" value="Orbis" />
+				<Tag key="RejectedPlatform" value="Durango" />
+				<Tag key="RejectedPlatform" value="GDKDesktop" />
+			</Tags>
+        </SubModule>
+		<SubModule>
+			<Name value="DedicatedCustomServerClientHelperSubModule"/>
+			<DLLName value="TaleWorlds.MountAndBlade.DedicatedCustomServer.ClientHelper.dll"/>
+			<SubModuleClassType value="TaleWorlds.MountAndBlade.DedicatedCustomServer.ClientHelper.DedicatedCustomServerClientHelperSubModule"/>
+			<Tags>
+				<Tag key="DedicatedServerType" value="none" />
+			</Tags>
+		</SubModule>
+    </SubModules>
+</Module>

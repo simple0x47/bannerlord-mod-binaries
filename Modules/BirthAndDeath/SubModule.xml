@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Birth and Death Options"/>
+	<Id value = "BirthAndDeath"/>
+	<Version value = "e1.8.0"/>
+	<SingleplayerModule value="true"/>
+	
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="e1.8.0" Optional="false"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="e1.8.0" Optional="false"/>
+	</DependedModules>
+	
+	<!-- ModulesToLoadAfterThis means, modules given in this scope will load after this module-->
+	<ModulesToLoadAfterThis>
+		<!--<Module Id="FooBarModule"/>-->
+	</ModulesToLoadAfterThis>
+	
+	<!-- IncompatibleModules means, if any modules given in this scope exists and enabled, this module will be disabled-->
+	<IncompatibleModules>
+		<!--<Module Id="FooBarModule"/>-->
+	</IncompatibleModules>
+	
+	<Xmls>
+	</Xmls>
+	
+	<SubModules>
+		<SubModule>
+			<Name value = "BirthAndDeathSubModule"/>
+			<DLLName value = "TaleWorlds.CampaignSystem.ViewModelCollection.BirthAndDeath.dll"/>
+			<SubModuleClassType value = "TaleWorlds.CampaignSystem.ViewModelCollection.BirthAndDeath.BirthAndDeathSubModule"/>			
+			<Tags>
+				<Tag key="DedicatedServerType" value ="none" />
+			</Tags>
+		</SubModule>
+	</SubModules>
+</Module>

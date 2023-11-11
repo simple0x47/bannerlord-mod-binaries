@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "CustomBattle"/>
+	<Id value = "CustomBattle"/>
+	<Version value = "e1.8.1"/>
+	<DefaultModule value="true"/>
+	<ModuleCategory value="Singleplayer"/>
+  <Official value="true" />
+  <DependedModules>
+		<DependedModule Id="Native" DependentVersion="e1.8.1" Optional="false"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="e1.8.1" Optional="false"/>
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value = "CustomBattleSubModule"/>
+			<DLLName value = "TaleWorlds.MountAndBlade.CustomBattle.dll"/>
+			<SubModuleClassType value = "TaleWorlds.MountAndBlade.CustomBattle.CustomBattleSubModule"/>			
+			<Tags>
+				<Tag key="DedicatedServerType" value ="none" />
+			</Tags>
+		</SubModule>
+	</SubModules>
+	<Xmls>
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="custombattlecharacters"/>
+			<IncludedGameTypes>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+		</XmlNode>  
+		<XmlNode>                
+			<XmlName id="Scene" path="custom_battle_scenes"/>
+		</XmlNode> 
+	</Xmls>
+</Module>
