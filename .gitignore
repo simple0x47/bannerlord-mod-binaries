@@ -17,14 +17,39 @@
 /Modules/DedicatedCustomServerHelper/GUI
 /Modules/DedicatedCustomServerHelper/ModuleData
 
-/Modules/Native
-!/Modules/Native/bin
+/Modules/Native/AssetPackages
+/Modules/Native/Atmospheres
+/Modules/Native/GUI
+/Modules/Native/LauncherGUI
+/Modules/Native/ModuleData
+/Modules/Native/ModuleSounds
+/Modules/Native/MultiplayerForcedAvatars
+/Modules/Native/MultiplayerTestAvatars
+/Modules/Native/NavMeshPrefabs
+/Modules/Native/Prefabs
+/Modules/Native/SceneObj
+/Modules/Native/TileSets
+/Modules/Native/Videos
+/Modules/Native/*.*
 
-/Modules/SandBox
-!/Modules/SandBox/bin
 
-/Modules/SandBoxCore
-!/Modules/SandBoxCore/bin
+/Modules/SandBox/AssetPackages
+/Modules/SandBox/GUI
+/Modules/SandBox/ModuleData
+/Modules/SandBox/Prefabs
+/Modules/SandBox/SceneObj
+/Modules/SandBox/TileSets
+/Modules/SandBox/Videos
+/Modules/SandBox/*.*
 
-/Modules/StoryMode
-!/Modules/StoryMode/bin
+
+/Modules/SandBoxCore/GUI
+/Modules/SandBoxCore/ModuleData
+/Modules/SandBoxCore/SceneObj
+/Modules/SandBoxCore/*.*
+
+/Modules/StoryMode/GUI
+/Modules/StoryMode/ModuleData
+/Modules/StoryMode/Prefabs
+/Modules/StoryMode/SceneObj
+/Modules/StoryMode/*.*
